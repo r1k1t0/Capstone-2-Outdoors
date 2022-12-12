@@ -17,3 +17,7 @@
 #parkDiv {
     align-items: center;
 }
+
+main {
+    background-image: -moz-element();
+}

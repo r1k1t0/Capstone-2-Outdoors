@@ -1,5 +1,5 @@
 main {
-    height: 100vh;
+    height: 101vh;
     display: grid;
     place-items: center;
   }
@@ -46,9 +46,11 @@ main {
   .btn-prev {
     top: 45%;
     left: 2%;
+    opacity: 75;
   }
   
   .btn-next {
     top: 45%;
     right: 2%;
+    opacity: 75;
   }

@@ -1,4 +1,13 @@
 "use strict";
+
+// function random_pc($dir = 'images') {
+//     $files = glob($dir . '/*.*');
+//     $file = array_rand($files);
+//     return $files[$file];
+// }
+
+
+
 // Select all slides
 const slides = document.querySelectorAll(".slide");
 

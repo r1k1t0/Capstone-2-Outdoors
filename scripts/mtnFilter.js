@@ -61,7 +61,6 @@ function displayMountain() {
     ${filteredMountains.map(mountainTemplate).join("")}
    
   `;  
-       
 }
 mountainDropDownList();
 loadData();
