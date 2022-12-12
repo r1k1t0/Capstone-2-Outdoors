@@ -49,11 +49,17 @@
   </nav> -->
   </header>
     <main>
-        <select id="mountainDropDown" onchange="dropDownSelect()" class="form-select">
 
-        </select>
+        <div class="container">
+            <form name="drop_list">
+                <select id="mountainDropDown" onchange="displayMountain()" class="form-select">
+                    <option>Please select a mountain to view</option>
 
-        <div id="mountainsDiv"></div>
+                </select>
+            </form>
+        </div>
+
+        <div id="mountains"></div>
 
         <!-- Javascript Arrays and Functions for Mountain data -->
         <script src="scripts/mountainData.js"></script>
