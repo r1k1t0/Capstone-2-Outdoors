@@ -49,15 +49,23 @@
   </header>
 
     <main>
-        <div class="container">
-            <select id="parkLocationList"></select>
-            <button id="stateSearchButton">Search State</button>
-
-            <select id="parkTypeList"></select> 
-            <button id="parkTypeSearchButton">Search Park Type</button>
-        </div>
-        <div id="parkDiv"></div>
-        <div id="park"></div>
+        <section class="container-g">
+            <div id="selects">
+              <select id="SearchFilter" class="form-select text-bg-dark opacity-75 mb-4">
+                <option id="default">Search Parks By ...</option>
+                <option id="location">Location</option>
+                <option id="parkType">Park Type</option>
+                <option id="all">View All National Parks</option>
+              </select>
+              <select id="locationsList" class="form-select text-bg-dark opacity-75 mb-4"></select>
+              <select id="parkTypeList" class="form-select text-bg-dark opacity-75 mb-4"></select>
+              <select id="parkList" class="form-select text-bg-dark opacity-75 mb-4"></select>
+            </div>
+            <p id="extraData" class="h3 text-bg-dark opacity-75 text-center p-4 fw-bold"></p>
+                        <div id="parksDescription" class="card opacity-75 m-5 p-4">
+                            
+                        </div>
+            </section>
 
     </main>
 
