@@ -1,7 +1,7 @@
 
-window.onload = function loadData() {
+// window.onload = function loadData() {
   
-}
+// }
 
 
 //DropDown Menu
